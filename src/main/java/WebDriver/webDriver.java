@@ -32,6 +32,8 @@ public class webDriver {
     @Test
     public void run() throws InterruptedException {
 
+
+
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe");
         this.driver = new ChromeDriver();
         driver.get("http://172.23.176.167/");
